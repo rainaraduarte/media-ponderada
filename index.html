@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláriods</title>
+    <style type="text/css">
+h1, h2, h3, p {
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    height: 1300px;
+    margin: auto;
+}
+.form { 
+    text-align: center;
+    padding: 10px;
+    border: solid 2px;
+}
+    </style>
+</head>
+<body>
+    <h1>Cálculo de média ponderada</h1>
+    <div class="container">
+      
+        <form class="form" action="registro.php" method="post">
+            <h3>Digite duas notas e os seus respectivos pesos para obter a média ponderada:</h3>
+            <p>
+                <label for="nota1">Nota 1:</label>
+                <input type="text" name="nota1" id="nota1" />
+            </p>
+            <p>
+                <label for="peso1">Peso 1:</label>
+                <input type="text" name="peso1" id="peso1" />
+            </p>
+            <p>
+                <label for="nota2">Nota 2:</label>
+                <input type="text" name="nota2" id="nota2" />
+            </p>
+            <p>
+                <label for="peso2">Peso 2:</label>
+                <input type="text" name="peso2" id="peso2" />
+            </p>
+            <p>
+                <input type="submit" value="Calcular" />
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
